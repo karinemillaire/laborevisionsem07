@@ -56,6 +56,9 @@ body {
 .header {
   background-color: #fff;
   padding: 23.5px 0;
+  position: fixed;
+  z-index: 10;
+  width: 100%;
 }
 
 .header .wrapper {
@@ -94,7 +97,7 @@ body {
 .hero {
   background: url(../images/hero.jpg) no-repeat;
   background-size: cover;
-  height: 650px;
+  height: 750px;
 }
 
 .hero .wrapper {
@@ -117,4 +120,65 @@ body {
     normal 1.5rem "Roboto",
     sans-serif;
   font-optical-sizing: auto;
+}
+
+/* CIRCUITS*/
+
+.circuits h2 {
+  color: white;
+  font:
+    bold 3rem "Raleway",
+    sans-serif;
+  font-optical-sizing: auto;
+  text-transform: uppercase;
+}
+
+.circuits p {
+  font:
+    normal 1.5rem "Roboto",
+    sans-serif;
+  font-optical-sizing: auto;
+  color: #fff;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.card {
+  background-color: #fff;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  width: 370px;
+}
+
+.card p {
+  color: black;
+  font:
+    normal 1.125rem/160% "Roboto",
+    sans-serif;
+  text-align: center;
+}
+
+.card h3 {
+  color: #d300b7;
+  font:
+    bold 2rem "Raleway",
+    sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.card .button {
+  align-self: center;
+  margin-top: auto;
+}
+
+.circuits span {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+
 }
