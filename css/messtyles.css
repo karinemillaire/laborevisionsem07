@@ -28,6 +28,7 @@ body {
   font-weight: bold;
   text-transform: uppercase;
   font-size: 4rem;
+  margin: 0;
 }
 
 .button {
@@ -83,7 +84,37 @@ body {
   font:
     900 1.75rem "Raleway",
     sans-serif;
-    text-decoration: none;
-    color: black;
-    text-transform: uppercase;
+  text-decoration: none;
+  color: black;
+  text-transform: uppercase;
+}
+
+/*hero*/
+
+.hero {
+  background: url(../images/hero.jpg) no-repeat;
+  background-size: cover;
+  height: 650px;
+}
+
+.hero .wrapper {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.boite {
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 40px;
+  height: 427px;
+  width: 550px;
+  border-radius: 20px;
+}
+
+.boite p {
+  color: #fff;
+  font:
+    normal 1.5rem "Roboto",
+    sans-serif;
+  font-optical-sizing: auto;
 }
