@@ -9,6 +9,46 @@ html {
   box-sizing: inherit;
 }
 
-/*ÉLÉMENTS*/
+/*BASE*/
 body {
+background-color: #222222;
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
 }
+
+.wrapper {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+/*ÉLÉMENTS*/
+
+.hero h1 {
+  color: #d300b7;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 4rem; 
+}
+
+.button{
+  padding: 10px 30px;
+  text-transform: uppercase;
+  color: #d300b7;
+  border: 4px solid #d300b7;
+  border-radius: 56px;
+  font: bold 1.125rem "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  text-decoration: none;
+}
+
+.button:hover {
+  background-color: #d300b7;
+  color: white;
+}
+
+
+/* SECTIONS*/
+
+/*header*/
+
+header
