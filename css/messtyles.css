@@ -97,7 +97,8 @@ body {
 .hero {
   background: url(../images/hero.jpg) no-repeat;
   background-size: cover;
-  height: 750px;
+  height: 650px;
+  padding: 111.5px 0;
 }
 
 .hero .wrapper {
@@ -123,7 +124,9 @@ body {
 }
 
 /* CIRCUITS*/
-
+.circuits {
+  padding: 100px 0;
+}
 .circuits h2 {
   color: white;
   font:
@@ -144,6 +147,7 @@ body {
 .cards {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  gap: 30px ;
 }
 
 .card {
@@ -151,7 +155,7 @@ body {
   padding: 20px;
   display: flex;
   flex-direction: column;
-  width: 370px;
+  position: relative;
 }
 
 .card p {
@@ -176,9 +180,42 @@ body {
   margin-top: auto;
 }
 
-.circuits span {
+.triangle {
   position: absolute;
   top: 0px;
   right: 0px;
 
+}
+
+
+/*footer*/
+
+.footer {
+  background-color: #fff;
+  padding: 50px 0;
+}
+
+.mediasociaux{
+  display: flex;
+  justify-content: center;
+  gap: 20px ;
+}
+
+.footer span {
+  background-color: #d300b7;
+  height: 90px;
+  width: 90px;
+  border-radius: 100%;
+  text-decoration: none;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center ;
+}
+
+.footer a{
+  text-decoration: none;
+}
+.footer p  {
+  text-align: center;
 }
