@@ -183,8 +183,8 @@ body {
 
 .triangle {
   position: absolute;
-  top: 0px;
-  right: 0px;
+  top: -40px;
+  right: -40px;
 
 }
 
