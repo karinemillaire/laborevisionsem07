@@ -7,7 +7,6 @@ for(let i = 0; i< boutons.length; i++){
 
 
 function openModal () {
-    console.log("ALLO");
     modale.classList.add("visible");
     let paragraphe = document.createElement("p");
     paragraphe.textContent = "modale";

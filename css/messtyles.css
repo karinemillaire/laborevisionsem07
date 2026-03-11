@@ -118,15 +118,14 @@ body {
 .hero {
   background: url(../images/hero.jpg) no-repeat;
   background-size: cover;
-  min-height: 650px;
-  padding-top: 97.39px;
 }
 
 .hero .wrapper {
   display: flex;
   justify-content: flex-end;
   align-items: center;
-
+  min-height: 650px;
+  margin-top: 97.39px;
 }
 
 .boite .button {
@@ -161,18 +160,21 @@ body {
 .circuits h2 {
   color: white;
   font:
-    bold 3rem "Raleway",
+    bold 3rem/110% "Raleway",
     sans-serif;
   font-optical-sizing: auto;
   text-transform: uppercase;
+  text-align: center;
 }
 
 .circuits p {
   font:
-    normal 1.5rem "Roboto",
+    normal 1.125rem/160% "Roboto",
     sans-serif;
   font-optical-sizing: auto;
   color: #fff;
+  text-align: center;
+  padding-bottom: 70px ;
 }
 
 .cards {
