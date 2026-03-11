@@ -39,7 +39,7 @@ body {
   border: 4px solid #d300b7;
   border-radius: 56px;
   font:
-    bold 1.125rem "Raleway",
+    bold 1.125rem/110% "Raleway",
     sans-serif;
   font-optical-sizing: auto;
   text-decoration: none;
@@ -98,7 +98,7 @@ body {
 .hero {
   background: url(../images/hero.jpg) no-repeat;
   background-size: cover;
-  height: 650px;
+  min-height: 650px;
   padding: 111.5px 0;
 }
 
@@ -235,4 +235,32 @@ body {
 
 .footer p {
   text-align: center;
+}
+
+
+/* MODALE*/ 
+
+.paragraphe {
+background-color: #fff;
+width: 600px;
+height: 400px;
+display: flex;
+justify-content: center;
+}
+
+.paragraphe p {
+  align-self: center;
+}
+
+
+
+.modale{
+  background-color: rgba(0, 0, 0, 0.8);
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left:0; 
+  z-index: 1000;
+
 }
