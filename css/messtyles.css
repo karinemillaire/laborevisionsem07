@@ -28,6 +28,7 @@ body {
   font-weight: bold;
   text-transform: uppercase;
   font-size: 4rem;
+  line-height: 110%;
   margin: 0;
 }
 
@@ -104,23 +105,30 @@ body {
 .hero .wrapper {
   display: flex;
   justify-content: flex-end;
-  align-items: center;
+
+}
+
+.boite .button {
+  align-self: center ;
+  margin-top: auto;
 }
 
 .boite {
   background-color: rgba(0, 0, 0, 0.8);
   padding: 40px;
-  height: 427px;
   width: 550px;
   border-radius: 20px;
   width: 50%;
   align-self: center;
+  display: flex;
+  flex-direction: column;
+  height: 427px; 
 }
 
 .boite p {
   color: #fff;
   font:
-    normal 1.5rem "Roboto",
+    normal 1.5rem/160% "Roboto",
     sans-serif;
   font-optical-sizing: auto;
 }
@@ -214,10 +222,15 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  font-size: 50px;
 }
 
 .footer a {
   text-decoration: none;
+}
+
+.footer span:hover{
+  background-color: black;
 }
 
 .footer p {
